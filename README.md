@@ -176,7 +176,7 @@ leaves the space it occupied just as it was before: nice and tidy.
 
 In the mounting step, we can set up any special requirements we may have for
 that particular component: fetch some data, start counters etc. It is extremely
-important to clean up all the things we set up in the unmounting stage in
+important to clean up all the things we set up in the mounting stage in
 `componentWillUnmount`, as not doing so may lead to some pretty nasty
 consequences - even as bad as crashing your carefully crafted application!
 
